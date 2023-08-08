@@ -1,0 +1,652 @@
+body#login{
+    background: url('../images/Sparkle.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+div.loginHeader{
+    text-align: center;
+    padding: 50px;
+}
+
+div.loginHeader{
+    margin-bottom: 60px;
+}
+
+
+.logo img {
+    width: 70px; 
+    height: 70px; 
+}
+
+div.loginHeader h1{
+    font-size: 100px;
+    color:#223FBF;
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 0px;  
+}
+
+div.loginHeader p{
+    font-size: 50px;
+    color: snow;
+    text-emphasis-color: whitesmoke;
+    margin: 0px;
+    text-transform: uppercase;
+    display: inline-block; 
+}
+
+div.loginHeader p:after{
+    content: '';
+    display: block;
+    height: 6px;
+    background: rgb(244, 240, 239);
+    margin: 0 auto;
+    
+}
+
+div.loginBody form{
+    margin: 0px auto;
+    width: 450px;
+    background: rgba(0,0,0,0.6);
+    padding: 50px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+
+div.loginInputContainer label{
+    margin-top: 20px;
+}
+
+div.loginInputContainer label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+div.loginInputContainer input{
+    height: 30px;
+    width: 100%;
+    border:2px solid #223FBF;
+    font-size:20px;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+    border-radius: 10px;
+}
+
+div.loginButtonContainer{
+    margin-top: 40px;
+    text-align: center;
+}
+
+div.loginButtonContainer button{
+    font-size: 20px;
+    padding: 10px 40px;
+    background: #223FBF;
+    color: #fff;
+    border-radius: 10px;
+}
+
+div.header{
+    width: 100%;
+    background: #D13327; 
+    padding: 10px 0;
+    text-align: right;
+}
+
+div.header a{
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #fff;
+}
+
+div.header a:hover{
+    border-radius: 8px;
+    border: 2px solid #fff;
+}
+
+div.banner{
+    background: url('../images/magnum.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 80vh;
+}
+
+div.homepageContainer{
+    width: 50%;
+    max-width: 1000px;
+    /*height: 40vh;*/
+    margin: 0 auto;
+
+}
+
+div.bannerHeader h1{
+    font-size: 100px;
+    color: #D13327;
+    line-height: 100%;
+    
+}
+
+div.bannerHeader p{
+    font-size: 40px;
+    color: whitesmoke;
+    font-weight: normal;
+    margin-top: -60px;
+    line-height: 100%;
+    
+}
+
+p.bannerTag {
+    font-size: 20px;
+    color: lemonchiffon;
+    margin-top:20px;
+    width: 45%;  
+}
+
+div.bannerIcon{
+    margin-top: 200px;
+}
+
+div.bannerIcon a{
+    font-size: 25px;
+    margin-left: 30px;    
+    padding: 10px 13px;
+    background: rgb(0,0,0,0.5);
+    color: beige;
+    border-radius: 50%;
+    width: 25px;
+    height:29px;
+    display: inline-block;
+}
+
+div.bannerIcon a:first-child{
+    margin-left: 0px;
+    
+}
+
+div.bannerIcon a:hover{
+    color: #fff;
+    background: #D13327;
+    font-size: 27px;
+    transition: 0.6s all;
+}
+
+div.homepageFeatures{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0px;
+}
+
+div.homepageFeature{
+    padding: 60px 20px 10px 20px;
+    text-align: center;  
+    width: 32%;
+}
+
+div.homepageFeature:hover{
+    border-top: 2px solid #D13327;
+    border-bottom: 2px solid #D13327;
+    transition: 0.3s all;
+}
+
+div.homepageFeatures span.featureIcon{
+    font-size: 45px;
+    background: #D13327;
+    color:  #fff;
+    border-radius: 300%;
+    width: 64px;
+    height: 55px;
+    display: inline-block;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+div.homepageFeatures h3.featureTitle{
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+
+div.homepageFeatures p.featureDes{
+    color: #D13327;
+    font-size: 16px;
+}
+
+div.homepageNotified{
+    background: #e3e3e3;
+    padding: 80px 0px;
+}
+
+div.homepageNotifiedContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+div.emailform h3{
+    font-size: 25px;
+}
+
+div.emailform{
+    width: 40%;
+}
+
+div.video{
+    width: 50%;
+    margin: 0 auto;
+}
+
+div.homepageNotified h3{
+    margin-bottom: 20px;
+    margin-right: 50px;
+    
+}
+
+div.homepageNotified p{
+    color: rgba(0,0,0,0.7);
+    line-height: 200%;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+div.formContainer{
+    width: 100%;  
+    position: relative;
+    height: 100%;
+    border-radius: 20px;
+    border-color: #fff;
+}
+
+div.formContainer input{
+    width: 90%;
+    padding: 15px 10px; 
+    border-radius: 15px;
+    border: none;
+}
+
+div.formContainer input:focus{
+    outline: none;
+}
+
+div.formContainer button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    font-size: 20px;
+    padding: 0 10px;
+    background: #D13327;
+    border: none;
+    color: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+
+iframe{
+    width: 70%;
+    height: 100%;
+}
+
+div.socials{
+    text-align: center;
+    padding: 40px 0 45px 0px;
+}
+
+h3.socialHeader{
+    font-size: 25px;
+}
+
+p.socialText{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #848484;
+    font-size: 15px;
+}
+
+div.socialIconsContainer a{
+    font-size: 21px;
+    height: 32px;
+    width: 40px;
+    display: inline-block;
+    padding-top: 7px;
+    background: #d4d4d4;
+    border-radius: 50%;
+    color: #fff;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+div.socialIconsContainer a:hover{
+    background: #D13327;
+    transition: 0.4s all;
+}
+
+div.footer{
+    background: #e3e3e3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    
+}
+
+div.footer a{
+    color: #848484;
+    margin-left: 30px;
+    text-decoration: none;    
+}
+
+div.footer a:hover{
+    font-weight: bold;
+    color: #D13327;
+    transition: 0.5s all;
+}
+
+/*Dashboard styling */
+
+#dashboardMainContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+div.dashboard_sidebar{
+    width: 20%;
+    background: #000D73;
+    height: 100vh;
+}
+
+div.dashboard_content_container{
+    width: 80%;
+    background: #f4f6f9;
+}
+
+h3.dashboard_logo{
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div.dashboard_sidebar_user{
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+div.dashboard_sidebar_user img{
+    width: 80px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-right: 5px;
+    vertical-align: middle;  
+}
+
+div.dashboard_sidebar_user span{
+    top: 20%;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+}
+
+ul.dashboard_menu_lists{
+    padding: 0px;
+    margin-top: 15px;   
+}
+
+ul.dashboard_menu_lists li{
+    padding: 15px 25px;
+    text-transform: uppercase;
+}
+
+ul.dashboard_menu_lists li.menuActive{
+    background: #1B92C2;
+    color: #fff;
+}
+
+ul.dashboard_menu_lists li a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 10px;
+    display: inline-flex; 
+    align-items: center;
+}
+
+ul.dashboard_menu_lists li a i{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+ul.dashboard_menu_lists li:hover{
+    background: #DE84AE;
+    color: #C2C2C2;
+    transition: 0.1s all;
+}
+
+div.dashboard_topNav{
+    background: #fff;
+    padding: 20px;
+}
+
+div.dashboard_topNav a{
+    color: #848383;
+    font-size: 15px;
+    text-decoration: none;
+}
+ 
+#logout_btn{
+    float: right;
+}
+
+div.dashboard_content{
+    padding: 70px 0px 10px 0px;
+}
+
+div.dashboard_content_main{
+    background: #fff;
+    min-height: 800px;
+    height: 100%;
+}
+
+div#errorMessage{
+    background: #fff;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    padding: 11px;
+}
+
+form::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+form.appForm{
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #cecfd0;  
+    border-radius: 5px;
+    background: #f4f6f9;
+}
+
+form label{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #454545;
+}
+
+form input.appFormInput{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #d6d7da;
+    border-radius: 5px;
+}
+
+div.appFormInputContainer{
+    margin-bottom: 15px;
+}
+
+div#userAddFormContainer{
+    padding-top: 100px;
+}
+
+button.appBtn{
+    background: #0064A8;
+    color: #fff;
+    border: 1px solid #0064A8;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    float: right;
+}
+
+p.responseMessage{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 33px;
+    background: rgba(0, 128, 0, 0.1);
+    padding: 20px;
+    font-weight: bold;
+}
+
+p.responseMessage_error{
+    background: rgba(128, 0, 0, 0.1);
+}
+
+p.responseMessage_success {
+    background: rgba(0, 128, 0, 0.1);
+}
+
+/* User add page */
+
+div.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+div.column{
+    width: 100%;
+    padding: 0px 10px 0px 20px;
+
+}
+
+div.column-5{
+    width: 41.67%;    
+}
+
+div.column-7{
+    width: 48.67%;
+    
+}
+
+
+h1.section_header{
+    font-size: 21px;
+    color: #000D73;
+    border-bottom: 1px solid #9a9a9a;
+    padding-bottom: 11px;
+    padding: 10px;
+    border-left: 6px solid #000D73;
+    padding-right: 10px;
+}
+
+div.users table,th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+table th{
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    background: #f4f6f9;
+}
+
+table td{
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
+
+p.userCount{
+    text-align: right;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000D73;
+    padding-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
