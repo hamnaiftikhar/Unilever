@@ -1,4 +1,4 @@
-<?php 
+<<?php 
 
     // start session
     session_start();
@@ -20,6 +20,8 @@
         if($stmt->rowCount() > 0){
             $stmt->setFetchMode(PDO::FETCH_ASSOC);
             $user = $stmt->fetchAll()[0];
+            
+            //capture data of currently login users
             $_SESSION['users'] = $user;
             
             
@@ -37,6 +39,7 @@
     <title>Unilever Inventory Management System</title>
     
     <link rel="stylesheet" type="text/css" href="css/login.css">
+    <script src="https://kit.fontawesome.com/74f27641c2.js" crossorigin="anonymous"></script>
     
 </head>
 <body id="login">
@@ -51,9 +54,11 @@
     <div class="container">
         <div class="loginHeader">
             <div id="containerlogo">
+<!--
                 <div class="logo">
                     <img src="D:\UNILEVER_INTERNSHIP\INVENTORY\images\unilever.png" alt="Unilever Logo">
                 </div>
+-->
             </div>
             <h1>Unilever</h1>
             <p>Inventory Management System</p>
